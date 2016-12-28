@@ -8,6 +8,10 @@
         "source": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "F:\\source_1\\marquee\\viewflip\\app\\build\\intermediates\\res\\merged\\debug\\layout\\index_activity.xml",
+        "source": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\layout\\index_activity.xml"
+    },
+    {
         "merged": "F:\\source_1\\marquee\\viewflip\\app\\build\\intermediates\\res\\merged\\debug\\layout\\third_activity.xml",
         "source": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\layout\\third_activity.xml"
     }
