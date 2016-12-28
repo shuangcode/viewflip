@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\source_1\\marquee\\viewflip\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gift_item.xml",
+        "source": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\layout\\gift_item.xml"
+    },
+    {
+        "merged": "F:\\source_1\\marquee\\viewflip\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\source_1\\marquee\\viewflip\\app\\build\\intermediates\\res\\merged\\debug\\layout\\third_activity.xml",
+        "source": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\layout\\third_activity.xml"
+    }
+]
