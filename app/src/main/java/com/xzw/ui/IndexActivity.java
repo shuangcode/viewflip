@@ -39,6 +39,14 @@ public class IndexActivity extends Activity{
                 startActivity(intent);
             }
         });
+
+        findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(IndexActivity.this, FourthActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }
