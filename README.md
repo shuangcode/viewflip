@@ -10,3 +10,10 @@
 <img src="/screenshot/screen_shot.gif"/> 
 
 <img src="/screenshot/index.png"/>
+
+
+1.增强对View动画的理解
+2.增强对ViewFlip的理解
+3.使用自定义ViewGroup来进行封装
+4.使用泛型进行封装，给程序带来扩展的能力
+5.方法抽象带来扩展
