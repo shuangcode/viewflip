@@ -10,4 +10,10 @@
     <string name="animation_2_text_3">贵在坚持  赢在坚持</string>
     <string name="animation_2_text_4">————隋a丙!</string>
 
+    <declare-styleable name="MarqueeView">
+        <attr format="integer" name="marqueeInterval" />
+        <attr format="integer" name="marqueeAnimDuration" />
+        <attr format="reference" name="marqueeAnimIn" />
+        <attr format="reference" name="marqueeAnimOut" />
+    </declare-styleable>
 </resources>

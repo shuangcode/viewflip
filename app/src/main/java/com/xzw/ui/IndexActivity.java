@@ -27,7 +27,7 @@ public class IndexActivity extends Activity{
         findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(IndexActivity.this, SendActivity.class);
+                Intent intent = new Intent(IndexActivity.this, SecondActivity.class);
                 startActivity(intent);
             }
         });
@@ -44,6 +44,14 @@ public class IndexActivity extends Activity{
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(IndexActivity.this, FourthActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        findViewById(R.id.button5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(IndexActivity.this, MarqueeActivity.class);
                 startActivity(intent);
             }
         });

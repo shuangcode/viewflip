@@ -28,7 +28,7 @@
 
 
         <activity
-            android:name=".SendActivity"
+            android:name=".SecondActivity"
             android:label="@string/title_activity_main" >
         </activity>
 
@@ -39,6 +39,11 @@
 
         <activity
             android:name=".FourthActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+
+        <activity
+            android:name=".MarqueeActivity"
             android:label="@string/title_activity_main" >
         </activity>
 

@@ -13,7 +13,7 @@ import android.widget.ViewFlipper;
  * @author xzw
  *
  */
-public class SendActivity extends Activity {
+public class SecondActivity extends Activity {
 	
 	private static final String TAG = "MainActivity";
 	
