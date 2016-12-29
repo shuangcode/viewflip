@@ -8,11 +8,27 @@
         "source": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\anim\\right_in.xml"
     },
     {
+        "merged": "F:\\source_1\\marquee\\viewflip\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_out.xml",
+        "source": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\anim\\bottom_out.xml"
+    },
+    {
         "merged": "F:\\source_1\\marquee\\viewflip\\app\\build\\intermediates\\res\\merged\\debug\\anim\\right_out.xml",
         "source": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\anim\\right_out.xml"
     },
     {
+        "merged": "F:\\source_1\\marquee\\viewflip\\app\\build\\intermediates\\res\\merged\\debug\\anim\\top_out.xml",
+        "source": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\anim\\top_out.xml"
+    },
+    {
         "merged": "F:\\source_1\\marquee\\viewflip\\app\\build\\intermediates\\res\\merged\\debug\\anim\\left_in.xml",
         "source": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\anim\\left_in.xml"
+    },
+    {
+        "merged": "F:\\source_1\\marquee\\viewflip\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_in.xml",
+        "source": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\anim\\bottom_in.xml"
+    },
+    {
+        "merged": "F:\\source_1\\marquee\\viewflip\\app\\build\\intermediates\\res\\merged\\debug\\anim\\top_in.xml",
+        "source": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\anim\\top_in.xml"
     }
 ]

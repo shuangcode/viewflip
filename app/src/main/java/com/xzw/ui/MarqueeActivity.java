@@ -20,7 +20,7 @@ public class MarqueeActivity extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.marquee_activity);
         List<String>
                 datas = Arrays.asList("《赋得古原草送别》", "离离原上草，一岁一枯荣。", "野火烧不尽，春风吹又生。", "远芳侵古道，晴翠接荒城。", "又送王孙去，萋萋满别情。");
         MarqueeView marqueeView1 = (MarqueeView) findViewById(R.id.marqueeView1);

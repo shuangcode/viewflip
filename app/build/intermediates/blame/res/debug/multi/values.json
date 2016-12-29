@@ -4,87 +4,47 @@
         "map": [
             {
                 "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 49,
-                    "endOffset": 100
-                },
-                "from": {
-                    "file": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 232,
-                        "endColumn": 49,
-                        "endOffset": 277
-                    }
-                }
-            },
-            {
-                "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 105,
-                    "endColumn": 58,
-                    "endOffset": 159
+                    "startOffset": 311,
+                    "endColumn": 49,
+                    "endOffset": 356
                 },
                 "from": {
-                    "file": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 283,
-                        "endColumn": 58,
-                        "endOffset": 337
-                    }
+                    "file": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 164,
-                    "endColumn": 57,
-                    "endOffset": 217
+                    "startOffset": 361,
+                    "endColumn": 58,
+                    "endOffset": 415
                 },
                 "from": {
-                    "file": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 343,
-                        "endColumn": 57,
-                        "endOffset": 396
-                    }
+                    "file": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 222,
-                    "endColumn": 55,
-                    "endOffset": 273
+                    "startOffset": 420,
+                    "endColumn": 57,
+                    "endOffset": 473
                 },
                 "from": {
-                    "file": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 402,
-                        "endColumn": 55,
-                        "endOffset": 453
-                    }
+                    "file": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 278,
-                    "endColumn": 45,
-                    "endOffset": 319
+                    "startOffset": 478,
+                    "endColumn": 55,
+                    "endOffset": 529
                 },
                 "from": {
                     "file": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\values\\strings.xml"
@@ -94,9 +54,9 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 324,
-                    "endColumn": 52,
-                    "endOffset": 372
+                    "startOffset": 534,
+                    "endColumn": 45,
+                    "endOffset": 575
                 },
                 "from": {
                     "file": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\values\\strings.xml"
@@ -106,9 +66,9 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 377,
-                    "endColumn": 50,
-                    "endOffset": 423
+                    "startOffset": 580,
+                    "endColumn": 52,
+                    "endOffset": 628
                 },
                 "from": {
                     "file": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\values\\strings.xml"
@@ -118,9 +78,9 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 428,
-                    "endColumn": 56,
-                    "endOffset": 480
+                    "startOffset": 633,
+                    "endColumn": 50,
+                    "endOffset": 679
                 },
                 "from": {
                     "file": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\values\\strings.xml"
@@ -130,9 +90,21 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 485,
+                    "startOffset": 684,
+                    "endColumn": 56,
+                    "endOffset": 736
+                },
+                "from": {
+                    "file": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 741,
                     "endColumn": 57,
-                    "endOffset": 538
+                    "endOffset": 794
                 },
                 "from": {
                     "file": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\values\\styles.xml"
@@ -140,44 +112,28 @@
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 543,
-                    "endLine": 18,
+                    "startOffset": 799,
+                    "endLine": 19,
                     "endColumn": 12,
-                    "endOffset": 965
+                    "endOffset": 1221
                 },
                 "from": {
-                    "file": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 431,
-                        "endLine": 19,
-                        "endColumn": 12,
-                        "endOffset": 860
-                    }
+                    "file": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 970,
-                    "endLine": 25,
+                    "startOffset": 1226,
+                    "endLine": 26,
                     "endColumn": 12,
-                    "endOffset": 1287
+                    "endOffset": 1543
                 },
                 "from": {
-                    "file": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 79,
-                        "endLine": 9,
-                        "endColumn": 12,
-                        "endOffset": 402
-                    }
+                    "file": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\values\\styles.xml"
                 }
             }
         ]

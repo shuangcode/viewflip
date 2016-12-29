@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:1:1-47:12
+ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:1:1-52:12
 	package
 		ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:2:5-25
 		INJECTED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml
@@ -26,7 +26,7 @@ ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:6:5-8:4
 		INJECTED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml
 		INJECTED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml
 application
-ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:10:5-45:19
+ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:10:5-50:19
 	android:label
 		ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:12:9-41
 	android:icon
@@ -55,12 +55,12 @@ ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:24:9-27
 		ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:26:13-56
 	android:name
 		ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:25:13-41
-activity#com.xzw.ui.SendActivity
+activity#com.xzw.ui.SecondActivity
 ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:30:9-33:20
 	android:label
 		ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:32:13-56
 	android:name
-		ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:31:13-41
+		ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:31:13-43
 activity#com.xzw.ui.ThirdActivity
 ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:35:9-38:20
 	android:label
@@ -73,3 +73,9 @@ ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:40:9-43
 		ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:42:13-56
 	android:name
 		ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:41:13-43
+activity#com.xzw.ui.MarqueeActivity
+ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:45:9-48:20
+	android:label
+		ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:47:13-56
+	android:name
+		ADDED from F:\source_1\marquee\viewflip\app\src\main\AndroidManifest.xml:46:13-44

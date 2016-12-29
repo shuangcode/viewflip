@@ -16,7 +16,19 @@
         "source": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\layout\\fourth_activity.xml"
     },
     {
+        "merged": "F:\\source_1\\marquee\\viewflip\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notice_item.xml",
+        "source": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\layout\\notice_item.xml"
+    },
+    {
+        "merged": "F:\\source_1\\marquee\\viewflip\\app\\build\\intermediates\\res\\merged\\debug\\layout\\complex_view.xml",
+        "source": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\layout\\complex_view.xml"
+    },
+    {
         "merged": "F:\\source_1\\marquee\\viewflip\\app\\build\\intermediates\\res\\merged\\debug\\layout\\third_activity.xml",
         "source": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\layout\\third_activity.xml"
+    },
+    {
+        "merged": "F:\\source_1\\marquee\\viewflip\\app\\build\\intermediates\\res\\merged\\debug\\layout\\marquee_activity.xml",
+        "source": "F:\\source_1\\marquee\\viewflip\\app\\src\\main\\res\\layout\\marquee_activity.xml"
     }
 ]

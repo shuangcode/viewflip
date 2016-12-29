@@ -9,12 +9,40 @@ package com.xzw.ui;
 
 public final class R {
     public static final class anim {
-        public static final int left_in=0x7f040000;
-        public static final int left_out=0x7f040001;
-        public static final int right_in=0x7f040002;
-        public static final int right_out=0x7f040003;
+        public static final int bottom_in=0x7f040000;
+        public static final int bottom_out=0x7f040001;
+        public static final int left_in=0x7f040002;
+        public static final int left_out=0x7f040003;
+        public static final int right_in=0x7f040004;
+        public static final int right_out=0x7f040005;
+        public static final int top_in=0x7f040006;
+        public static final int top_out=0x7f040007;
     }
     public static final class attr {
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int marqueeAnimDuration=0x7f010001;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int marqueeAnimIn=0x7f010002;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int marqueeAnimOut=0x7f010003;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int marqueeInterval=0x7f010000;
     }
     public static final class drawable {
         public static final int gsd_prop_icon_barrage=0x7f020000;
@@ -28,26 +56,39 @@ public final class R {
         public static final int new_feature_6=0x7f020008;
     }
     public static final class id {
-        public static final int button=0x7f080008;
-        public static final int button2=0x7f080009;
-        public static final int button3=0x7f08000a;
-        public static final int button4=0x7f08000b;
-        public static final int flipper=0x7f080001;
-        public static final int iv_icon=0x7f080006;
-        public static final int menu_settings=0x7f08000c;
-        public static final int text_1=0x7f080002;
-        public static final int text_2=0x7f080003;
-        public static final int text_3=0x7f080004;
-        public static final int text_4=0x7f080005;
-        public static final int tv_danmu=0x7f080007;
+        public static final int activity_main=0x7f080010;
+        public static final int button=0x7f08000b;
+        public static final int button2=0x7f08000c;
+        public static final int button3=0x7f08000d;
+        public static final int button4=0x7f08000e;
+        public static final int button5=0x7f08000f;
+        public static final int flipper=0x7f080004;
+        public static final int iv_icon=0x7f080009;
+        public static final int marqueeView1=0x7f080011;
+        public static final int marqueeView2=0x7f080012;
+        public static final int marqueeView3=0x7f080013;
+        public static final int marqueeView4=0x7f080014;
+        public static final int marqueeView5=0x7f080015;
+        public static final int menu_settings=0x7f080016;
+        public static final int secondTitle=0x7f080002;
+        public static final int text_1=0x7f080005;
+        public static final int text_2=0x7f080006;
+        public static final int text_3=0x7f080007;
+        public static final int text_4=0x7f080008;
+        public static final int time=0x7f080003;
+        public static final int title=0x7f080001;
+        public static final int tv_danmu=0x7f08000a;
         public static final int viewFlipper=0x7f080000;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int fourth_activity=0x7f030001;
-        public static final int gift_item=0x7f030002;
-        public static final int index_activity=0x7f030003;
-        public static final int third_activity=0x7f030004;
+        public static final int complex_view=0x7f030001;
+        public static final int fourth_activity=0x7f030002;
+        public static final int gift_item=0x7f030003;
+        public static final int index_activity=0x7f030004;
+        public static final int marquee_activity=0x7f030005;
+        public static final int notice_item=0x7f030006;
+        public static final int third_activity=0x7f030007;
     }
     public static final class menu {
         public static final int activity_main=0x7f070000;
@@ -67,4 +108,73 @@ public final class R {
         public static final int edittext_shadow_style=0x7f060001;
         public static final int shadow_style=0x7f060002;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a MarqueeView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #MarqueeView_marqueeAnimDuration com.xzw.ui:marqueeAnimDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #MarqueeView_marqueeAnimIn com.xzw.ui:marqueeAnimIn}</code></td><td></td></tr>
+           <tr><td><code>{@link #MarqueeView_marqueeAnimOut com.xzw.ui:marqueeAnimOut}</code></td><td></td></tr>
+           <tr><td><code>{@link #MarqueeView_marqueeInterval com.xzw.ui:marqueeInterval}</code></td><td></td></tr>
+           </table>
+           @see #MarqueeView_marqueeAnimDuration
+           @see #MarqueeView_marqueeAnimIn
+           @see #MarqueeView_marqueeAnimOut
+           @see #MarqueeView_marqueeInterval
+         */
+        public static final int[] MarqueeView = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.xzw.ui.R.attr#marqueeAnimDuration}
+          attribute's value can be found in the {@link #MarqueeView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.xzw.ui:marqueeAnimDuration
+        */
+        public static final int MarqueeView_marqueeAnimDuration = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.xzw.ui.R.attr#marqueeAnimIn}
+          attribute's value can be found in the {@link #MarqueeView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.xzw.ui:marqueeAnimIn
+        */
+        public static final int MarqueeView_marqueeAnimIn = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.xzw.ui.R.attr#marqueeAnimOut}
+          attribute's value can be found in the {@link #MarqueeView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.xzw.ui:marqueeAnimOut
+        */
+        public static final int MarqueeView_marqueeAnimOut = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.xzw.ui.R.attr#marqueeInterval}
+          attribute's value can be found in the {@link #MarqueeView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.xzw.ui:marqueeInterval
+        */
+        public static final int MarqueeView_marqueeInterval = 0;
+    };
 }
