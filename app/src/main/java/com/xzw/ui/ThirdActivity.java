@@ -37,7 +37,7 @@ public class ThirdActivity extends Activity {
     private void initItem() {
         mGiftView = LayoutInflater.from(this).inflate(R.layout.gift_item, null);
         ((TextView) mGiftView.findViewById(R.id.tv_danmu)).setText("I am a gift to you");
-        measureView(mGiftView);
+        measureView2(mGiftView);
         mWidth = mGiftView.getMeasuredWidth();
         Log.i(TAG, "width" + mWidth);
         LinearLayout.LayoutParams layoutParams =
@@ -66,11 +66,38 @@ public class ThirdActivity extends Activity {
     }
 
     private void measureView(View child) {
+        // 1.获取child的LayoutParams
         ViewGroup.LayoutParams lp = child.getLayoutParams();
+        // 2.这种情况下肯定lp肯定是null
         if(lp == null){
+            //
             lp = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         }
+        // 0代表UNSPECIFIED
         int childMeasureWidth = ViewGroup.getChildMeasureSpec(0, 0, lp.width);
+        //
+        int childMeasureHeight;
+        if(lp.height > 0){
+            childMeasureHeight = View.MeasureSpec.makeMeasureSpec(lp.height, View.MeasureSpec.EXACTLY);
+        } else {
+            childMeasureHeight = View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED);
+        }
+        //将宽和高设置给child
+        child.measure(childMeasureWidth, childMeasureHeight);
+    }
+
+    // 这种方式也可以
+    private void measureView2(View child) {
+        // 1.获取child的LayoutParams
+        ViewGroup.LayoutParams lp = child.getLayoutParams();
+        // 2.这种情况下肯定lp肯定是null
+        if(lp == null){
+            //
+            lp = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, 70);
+        }
+        // 0代表UNSPECIFIED
+        int childMeasureWidth = ViewGroup.getChildMeasureSpec(0, 0, lp.width);
+        //
         int childMeasureHeight;
         if(lp.height > 0){
             childMeasureHeight = View.MeasureSpec.makeMeasureSpec(lp.height, View.MeasureSpec.EXACTLY);
