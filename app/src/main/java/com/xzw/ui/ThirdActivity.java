@@ -78,11 +78,14 @@ public class ThirdActivity extends Activity {
         //
         int childMeasureHeight;
         if(lp.height > 0){
+            // 这个方法什么意思，非常重要??????????????????????
+            // heightMeasureSpec
             childMeasureHeight = View.MeasureSpec.makeMeasureSpec(lp.height, View.MeasureSpec.EXACTLY);
         } else {
+            // heightMeasureSpec
             childMeasureHeight = View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED);
         }
-        //将宽和高设置给child
+        // 调用测量方法
         child.measure(childMeasureWidth, childMeasureHeight);
     }
 
